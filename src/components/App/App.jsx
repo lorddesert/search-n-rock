@@ -7,7 +7,8 @@ const App = () => {
   const app = !firebase.apps.length ? firebase.initializeApp(config) : firebase.app();
   const auth = app.auth();
   const database = app.database();
-
+  
+  firebase.analytics();
   return (
     <div className="App">
       <Login />

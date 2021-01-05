@@ -1,4 +1,8 @@
 import React from 'react';
+import './Login.css';
+
+// Components
+import Form from '../Form/Form';
 
 const Login = () => {
     <div className="Login">
@@ -8,3 +12,5 @@ const Login = () => {
         <Form action={login} />
     </div>
 }
+
+export default Login;
