@@ -4,16 +4,18 @@ import backgroundSvg from './resources/background-svg';
 
 
 const Members = props => {
-  <div className="Members">
-    <img src={backgroundSvg} alt="background svg"/>
-    <main>
-      {props.members.forEach(member => {
-        <div className="Member">
-          {member}
-        </div>
-      })}
-    </main>
-  </div>
+  return ( 
+    <div className="Members">
+      <img src={backgroundSvg} alt="background svg"/>
+      <main>
+        {props.members.forEach(member => {
+          <div className="Member">
+            {member}
+          </div>
+        })}
+      </main>
+    </div>
+  );
 }
 
 export default Members;

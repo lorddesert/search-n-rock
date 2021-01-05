@@ -3,14 +3,17 @@ import './Login.css';
 
 // Components
 import Form from '../Form/Form';
+import Header from '../Header/Header';
 
 const Login = () => {
-    <div className="Login">
+    return(
+      <div className="Login">
         {/* Without menu */}
         <div className="background-wrapper"></div>
         <Header />
-        <Form action={login} />
+        <Form />
     </div>
+    );
 }
 
 export default Login;
