@@ -1,6 +1,6 @@
 {
   "name": "search-n-rock",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Find info about your favorite band members.",
   "main": "index.js",
   "scripts": {
