@@ -1,5 +1,5 @@
 import React from 'react'
-import 'PrimaryButton.css';
+import './PrimaryButton.css';
 
 const PrimaryButton = props => {
   return (

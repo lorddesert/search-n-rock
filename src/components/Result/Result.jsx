@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Result.css';
+import './Result.css';
 
 const Result = props => {
   return (

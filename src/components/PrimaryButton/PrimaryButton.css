@@ -2,7 +2,7 @@
   width: 240px;
   height: 45px;
 
-  background: #E73131;
+  background: #E73131 !important;
   border-radius: 7px;
   font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;

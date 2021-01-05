@@ -4,14 +4,17 @@ import './Login.css';
 // Components
 import Form from '../Form/Form';
 import Header from '../Header/Header';
+import PrimaryButton from '../PrimaryButton/PrimaryButton';
 
 const Login = () => {
     return(
-      <div className="Login">
+      <div className='Login'>
         {/* Without menu */}
-        <div className="background-wrapper"></div>
+        <div className='background-wrapper'></div>
         <Header />
-        <Form />
+        <Form>
+          <PrimaryButton value='Log in' />
+        </Form> 
     </div>
     );
 }

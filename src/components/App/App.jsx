@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import config from '../../config';
+import './App.css';
+import './reset.css';
 
 import firebase from 'firebase';
 

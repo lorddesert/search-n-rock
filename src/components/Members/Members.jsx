@@ -1,5 +1,5 @@
 import React from 'react'
-import 'Members.css';
+import './Members.css';
 import backgroundSvg from './resources/background-svg';
 
 
