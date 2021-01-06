@@ -1,4 +1,5 @@
 import React from 'react';
+import menuImg from './resources/menu.svg';
 
 const Menu = () => {
   return (
