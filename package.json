@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/lorddesert/search-n-rock#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "firebase": "^8.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -36,6 +37,7 @@
     "html-webpack-plugin": "^4.5.1",
     "mini-css-extract-plugin": "^1.3.3",
     "style-loader": "^1.1.3",
+    "svg-url-loader": "^7.1.1",
     "url-loader": "^4.1.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^4.3.1",
