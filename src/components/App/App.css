@@ -3,10 +3,12 @@
   --white: #FFF;
   --primary-color: #D82A12;
   --gray: #454545;
+  --light-gray: #a1a1a1;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&family=Pacifico&family=Quicksand:wght@400;700&display=swap');
 
 .App {
+  height: 100vh;
   font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import config from '../../config';
 import './App.css';
 import './reset.css';
@@ -8,6 +8,8 @@ import firebase from 'firebase';
 
 // Components
 import Login from '../Login/Login';
+import Home from '../Home/Home';
+
 
 const App = () => {
   // Initialize firebase, if it already is, return the app.
@@ -15,9 +17,18 @@ const App = () => {
   const auth = firebase.auth();  
 
   firebase.analytics();
+
+  const [showlogin, setShowLogin] = useState(true);
+
   return (
     <div className="App">
-      <Login />
+      {showlogin ?
+        <Login 
+          setShowLogin={setShowLogin} 
+        />
+      :
+        <Home />
+      }
     </div>
   );
 }
