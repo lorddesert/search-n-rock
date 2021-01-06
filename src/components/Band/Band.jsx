@@ -5,7 +5,7 @@ import './Band.css';
 const Band = props => {
   // Fetch the albums of the band, show the loader and then render.
   return (
-    <div className='Band'>
+    <div className='Band' onClick={() => props.fetchBand(props.key)}>
       <main>
         <hgroup>
           <h1 className='Band-name'>{props.name}</h1>
