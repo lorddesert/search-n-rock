@@ -1,3 +1,38 @@
 .Form {
-  background: green !important;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  gap: 1.2em;
+
+  color: var(--white);
+  font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+.Form h2 {
+  width: 100%;
+}
+.Form input {
+  width:clamp(250px, 10vw, 350px);
+
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: var(--white);
+  background: #696969e6;
+  border: 1px solid #696969e6 !important;
+  border-radius: 7px;
+  padding: 1em;
+  border: none;
+}
+
+.Form input:focus {
+ border: 1px solid var(--white) !important;
+}
+
+p {
+  width: 100%;
+
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
 }
