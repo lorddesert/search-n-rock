@@ -1,0 +1,35 @@
+.Loader {
+  display: grid;
+  place-items: center;
+  grid-column: 1/4;
+
+  color: var(--white);
+}
+.vinil {
+  width: clamp(150px, 20vw, 250px);
+  height: clamp(150px, 20vw, 250px);
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.center { 
+  border-radius: 50%;
+  background: var(--primary-color);
+  height: 100px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+  font-family: 'Pacifico', Verdana, Geneva, Tahoma, sans-serif;
+  animation: vinil infinite 1200ms;
+}
+
+@keyframes vinil {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
