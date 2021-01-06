@@ -1,0 +1,22 @@
+.Header {
+  width: calc(100% - 2vw);
+  z-index: 10;
+  display: flex;
+  justify-content: start start;
+
+  color: var(--white);
+  margin-left: 2vw;
+  font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header h1 {
+  height: 1rem;
+}
+.Header main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlighted {
+  font-weight: 700;
+}
