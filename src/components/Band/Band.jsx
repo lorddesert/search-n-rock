@@ -5,12 +5,13 @@ import './Band.css';
 const Band = props => {
   // Fetch the albums of the band, show the loader and then render.
   return (
-    <div className="Band">
+    <div className='Band'>
       <main>
-        <h1 className="Band-name">{props.name}</h1>
-        <h3>{props.year}</h3>
-        <h3>{props.country}</h3>
-        <Tag genre={props.genre} />
+        <hgroup>
+          <h1 className='Band-name'>{props.name}</h1>
+          <h2>{props.country}</h2>
+        </hgroup>
+        <div className='genre'>{props.genre}</div>
       </main>
     </div>
   );

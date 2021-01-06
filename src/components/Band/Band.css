@@ -1,0 +1,38 @@
+.Band main {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  height: 100px;
+  padding: 0 1em;
+  gap: .5em;
+
+
+  color: var(--white);
+  background: var(--gray);
+}
+
+.Band hgroup {
+  display: grid;
+  gap: .5em;
+}
+.Band h1 {
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+}
+.Band h2 {
+  font-size: 1rem;
+  color: var(--light-gray);
+}
+
+.Band .genre {
+  display: grid;
+  place-items: center;
+
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+  background: #D82A12;
+  box-sizing: border-box;
+  border-radius: 20px 3px 3px 20px;
+  font-weight: 700;
+  min-width: 85px;
+  padding: .3em;
+  text-align: center;
+} 
