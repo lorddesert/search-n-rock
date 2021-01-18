@@ -2,13 +2,19 @@
   --black: #000;
   --white: #FFF;
   --primary-color: #D82A12;
-  --gray: #454545;
+  --gray: #2c2c2c;
   --light-gray: #a1a1a1;
+  --dark-gray: #262626;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&family=Pacifico&family=Quicksand:wght@400;700&display=swap');
 
+body {
+  background: var(--black);
+  padding-bottom: 2em;
+}
+
 .App {
-  height: 100vh;
+  /* height: 100vh; */
   font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
 }

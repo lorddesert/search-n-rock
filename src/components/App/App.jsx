@@ -5,20 +5,18 @@ import './reset.css';
 
 import firebase from 'firebase';
 
-
 // Components
 import Login from '../Login/Login';
 import Home from '../Home/Home';
 
-
 const App = () => {
   // Initialize firebase, if it already is, return the app.
   const app = !firebase.apps.length ? firebase.initializeApp(config) : firebase.app();
-  const auth = firebase.auth();  
 
   firebase.analytics();
 
   const [showlogin, setShowLogin] = useState(true);
+
 
   return (
     <div className="App">
@@ -27,7 +25,9 @@ const App = () => {
           setShowLogin={setShowLogin} 
         />
       :
-        <Home />
+        <Home 
+          setShowLogin={setShowLogin}
+        />
       }
     </div>
   );
