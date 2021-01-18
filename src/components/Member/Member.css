@@ -1,0 +1,10 @@
+.Member {
+  color: var(--black);
+  font-family: 'Pacifico';
+}
+
+.Member p {
+  text-decoration: none !important;
+  font-size: clamp(1rem, 10vw, 1.3rem);
+  cursor: default;
+}
