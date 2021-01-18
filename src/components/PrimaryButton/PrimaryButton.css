@@ -1,9 +1,16 @@
 .PrimaryButton {
+  display: grid;
+  place-items: center;
   width: 240px;
   height: 45px;
 
   background: #E73131 !important;
   border-radius: 7px;
   font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
   font-size: 1rem;
+  color: var(--white);
+}
+.PrimaryButton:hover {
+  cursor: pointer;
 }

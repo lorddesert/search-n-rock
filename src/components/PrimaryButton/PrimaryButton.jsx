@@ -3,7 +3,7 @@ import './PrimaryButton.css';
 
 const PrimaryButton = props => {
   return (
-    <div className="PrimaryButton" onClick={props.action}>
+    <div id={props.id? props.id : ''} className="PrimaryButton" onClick={props.action}>
       {props.value}
     </div>
   );
