@@ -1,0 +1,35 @@
+.CreateBandForm {
+  display: grid;
+  place-items: center;
+  gap: .5em;
+  grid-column: 2/16;
+  margin-bottom: 1em;
+  
+  color: var(--white);
+}
+
+.CreateBandForm form {
+  display: grid;
+  gap: 2em;
+
+}
+.CreateBandForm input {
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: var(--white);
+  background: #696969e6;
+  border: 1px solid #696969e6 !important;
+  border-radius: 7px;
+  padding: 1em;
+  border: none;
+}
+
+.form-add-container {
+  display: grid;
+  gap: .7em;
+}
+
+.add-container {
+  display: grid;
+  gap: 1em;
+}
