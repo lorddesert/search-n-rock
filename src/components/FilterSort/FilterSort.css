@@ -1,0 +1,49 @@
+
+.filterSort {
+  margin-bottom: .7em;
+  grid-column: 2/16;
+}
+
+.filter-container {
+  display: flex;
+  margin-top: .6em;
+}
+
+#filter {
+  box-sizing: border-box;
+  border-radius: 7px 0 0 7px;
+  padding: .6em 1em;
+
+  border: 1px solid var(--white);
+  color: var(--white);
+  background: var(--black);
+  font-size: 1rem;
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filter-container img {
+  padding: .4em;
+  cursor: pointer;
+
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.Sort-container {
+  padding: 1em .5em;
+}
+
+
+@media(max-width: 678px) {
+  .filterSort {
+    flex-direction: column;
+  }
+
+  .Filter {
+    width: 100%;
+  }
+  .filterSort input {
+    width: 100%;
+  }
+}
