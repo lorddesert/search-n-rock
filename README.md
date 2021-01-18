@@ -17,5 +17,3 @@ https://www.figma.com/file/GrFnbkDpLtcfu4KGguiQgS/Search-n-rock?node-id=0%3A1
 * Babel.
 * Figma.
 * Travis.ci.
-
-test 2
