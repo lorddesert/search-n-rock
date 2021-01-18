@@ -1,5 +1,37 @@
+.Login, .background-wrapper {
+    width: 100vw;
+    height: 100vh; 
+}
+
+.Login {
+    display: grid;
+    place-items: center;
+    background: url('./resources/background.jpg') center;
+    grid-template-rows: 5vh auto auto;
+}
+
 .background-wrapper {
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    display: grid;
+
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.phrase {
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    z-index: 10;
+    color: var(--white);
+}
+.phrase strong {
+    font-weight: 700;
+}
+.highlighted {
+    color: var(--primary-color);
+}
+
+.actions-container {
+    display: grid;
+    gap: 1.3em;
 }
