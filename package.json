@@ -1,7 +1,7 @@
 {
   "name": "search-n-rock",
-  "version": "0.3.0",
-  "description": "Find info about your favorite band members.",
+  "version": "1.0.0",
+  "description": "Find what you want, listen what you like.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
