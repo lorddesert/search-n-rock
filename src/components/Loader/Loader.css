@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   grid-column: 1/4;
+  height: calc(100vh - 5em);
 
   color: var(--white);
 }
