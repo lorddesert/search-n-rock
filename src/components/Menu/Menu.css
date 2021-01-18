@@ -1,10 +1,41 @@
 .Menu {
   width: 35px;
   height: 35px;
+}
+
+.Menu-options {
+  border: 2px solid var(--dark-gray);
+  display: none;
+  transform: translateX(20%);
+  background: var(--gray);
+  height: 100vh;
+  position: absolute !important;
+  top: 0;
+  z-index: -1;
+  right: 0;
+  transition: all ease .3s;
+  width: clamp(240px, 10vw, 30%);
   
 }
 
-.Menu img {
-  cursor: pointer;
+.display-Menu-options {
+  display: block !important;
+  transform: translateX(0);
+}
 
+.Menu-options ul {
+  margin-top: 2em;
+}
+
+.Menu-options ul li {
+  padding: 1.5em .5em;
+  cursor: pointer !important;
+}
+.Menu-options ul li:hover {
+  background: #222;
+}
+
+.Menu-options ul li:last-child {
+  color: var(--primary-color);
+  font-weight: 700;
 }
