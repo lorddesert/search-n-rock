@@ -1,7 +1,7 @@
 {
   "name": "search-n-rock",
   "version": "1.0.0",
-  "description": "Find what you want, listen what you like.",
+  "description": "Search n' Rock is an CRUD SPA made w/ React js and Firebase.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
