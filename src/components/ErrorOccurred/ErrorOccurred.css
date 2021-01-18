@@ -1,0 +1,29 @@
+.ErrorOccurred {
+  display: grid;
+  place-items: center;
+  grid-column: 1/3;
+  height: calc(100vh - 5em);
+
+  color: var(--white);
+}
+
+.ErrorOccurred h1 {
+  font-size: 3rem;
+}
+
+.ErrorOccurred h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ErrorOccurred p {
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: default;
+}
+
+@media(max-width: 678px) {
+  .ErrorOccurred {
+    grid-column: 1/3 !important;
+  }
+}
