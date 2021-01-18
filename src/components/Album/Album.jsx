@@ -5,10 +5,10 @@ const Album = props => {
   return (
     <div className="Album">
     <main>
-      <h1 className="Album-name">{props.name}</h1>
+      <h1 className="Album-name">{props.album.name}</h1>
     </main>
     <footer className="Album-year">
-      <span>{props.year}</span>      
+      <span>{props.album.year}</span>      
     </footer>
   </div>
   );

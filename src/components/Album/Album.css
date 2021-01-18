@@ -1,3 +1,25 @@
-footer {
-  background: #E9E9E9;
+.Album {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 3fr 1fr;
+  background: var(--white);
+  margin: 0 2em;
+}
+.Album-name {
+  color: var(--black);
+  padding: .5em;
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 1.5rem);
+  font-weight: 700;
+}
+.Album-year {
+  display: grid;
+  place-items: center;
+  height: 50px;
+  width: 100%;
+  
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black) !important;
+  background: #E9E9E9 !important;
 }
