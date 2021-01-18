@@ -1,5 +1,10 @@
 .SecondaryButton {
-  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
   box-sizing: border-box;
+  
   border-radius: 7px;
+  border: 2px solid #FFFFFF;
+  padding: .7em;
 }

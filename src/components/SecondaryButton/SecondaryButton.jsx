@@ -3,7 +3,7 @@ import './SecondaryButton.css';
 
 const SecondaryButton = props => {
   return (
-    <div className="SecondaryButton" onClick={props.action}>
+    <div id={props.id? props.id : ''}  className="SecondaryButton" onClick={props.action}>
       {props.value}
     </div>
   );
