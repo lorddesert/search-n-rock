@@ -6,10 +6,10 @@ import './CreateBandForm.css';
 import PrimaryButton from '../PrimaryButton/PrimaryButton';
 import SecondaryButton from '../SecondaryButton/SecondaryButton';
 import Loader from '../Loader/Loader';
+import Band from '../Band/Band';
 
 // Scripts
 import { createBand, editBand, obtainSelectedBand } from '../scripts/crud';
-import Band from '../Band/Band';
 
 
       // <div className='add-container'>
