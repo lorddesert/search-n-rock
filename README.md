@@ -1,4 +1,4 @@
-# search-n-rock
+# Search n' Rock
 Find info about your favorite band members.
 
 You can enter here: https://lorddesert.github.io/search-n-rock,
